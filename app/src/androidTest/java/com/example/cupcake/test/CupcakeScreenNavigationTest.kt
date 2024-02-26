@@ -53,7 +53,6 @@ class CupcakeScreenNavigationTest {
             CupcakeApp(navController = navController)
         }
     }
-
     @Test
     fun cupcakeNavHost_verifyStartDestination() {
         navController.assertCurrentRouteName(CupcakeScreen.Start.name)

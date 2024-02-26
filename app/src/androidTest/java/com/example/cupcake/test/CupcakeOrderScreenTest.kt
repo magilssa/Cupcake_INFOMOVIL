@@ -48,6 +48,7 @@ class CupcakeOrderScreenTest {
         pickupOptions = listOf()
     )
 
+
     /**
      * When quantity options are provided to StartOrderScreen, the options are displayed on the
      * screen.

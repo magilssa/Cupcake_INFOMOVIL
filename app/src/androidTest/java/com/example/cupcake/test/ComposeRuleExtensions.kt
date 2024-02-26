@@ -30,6 +30,7 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule
  * using underlying activity property and passes it to [onNodeWithText] function as argument and
  * returns the [SemanticsNodeInteraction] object.
  */
+
 fun <A : ComponentActivity> AndroidComposeTestRule<ActivityScenarioRule<A>, A>.onNodeWithStringId(
     @StringRes id: Int
 ): SemanticsNodeInteraction = onNodeWithText(activity.getString(id))
